@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:id="@+id/taskName"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/delButton"
+        android:layout_toLeftOf="@+id/delButton"
+        android:textIsSelectable="false"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textAlignment="inherit"
+        android:singleLine="true" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delButton"
+            android:id="@+id/delButton"
+            android:layout_alignParentTop="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
